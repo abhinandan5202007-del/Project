@@ -28,3 +28,20 @@ The admin side is the "engine room" where the store is managed and maintained:
 **Data Cleanup:** Old or discontinued products can be wiped from the system instantly to keep the database clutter-free.
 
 **Gatekeeping:** A dedicated admin login ensures that sensitive inventory data and pricing are only accessible to authorized staff.
+
+**Tech Stack**
+**Language:** Python 3.x
+
+**Database:** MySQL
+
+**Libraries:** * mysql-connector-python: For database connectivity.
+
+**prettytable:** For displaying data in a structured, readable format.
+
+**Database Schema**
+
+The system uses three primary tables within the shop database:
+Table          |  Primary Key  |         Description
+cust_details   |   contact     |  Stores customer name, email, phone, and password.
+admin_details  |    user       |  Stores administrator credentials.
+inventory      |   product     |   Stores product names, prices, categories, and current stock.
