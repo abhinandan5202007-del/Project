@@ -41,8 +41,25 @@ The admin side is the "engine room" where the store is managed and maintained:
 # Database Schema
 
 The system uses three primary tables within the shop database:
-<br>
-Table          |  Primary Key  |         Description <br>
-cust_details   |   contact     |  Stores customer name, email, phone, and password <br>
-admin_details  |    user       |  Stores administrator credentials <br>
-inventory      |   product     |   Stores product names, prices, categories, and current stock <br>
+<table>
+  <tr>
+    <th>Table</th>
+    <th>Primary Key</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>cust_details</td>
+    <td>contact</td>
+    <td>Stores customer name, email, phone, and password</td>
+  </tr>
+  <tr>
+    <td>admin_details</td>
+    <td>user</td>
+    <td>Stores administrator credentials</td>
+  </tr>
+  <tr>
+    <td>inventory</td>
+    <td>product</td>
+    <td>Stores product names, prices, categories, and current stock</td>
+  </tr>
+</table>
