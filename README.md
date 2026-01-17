@@ -45,3 +45,16 @@ Table          |  Primary Key  |         Description
 cust_details   |   contact     |  Stores customer name, email, phone, and password.
 admin_details  |    user       |  Stores administrator credentials.
 inventory      |   product     |   Stores product names, prices, categories, and current stock.
+
+
+
+
+
+
+
+
+
+
+
+
+.
